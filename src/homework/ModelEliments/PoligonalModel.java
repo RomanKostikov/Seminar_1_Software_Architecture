@@ -1,8 +1,14 @@
 package homework.ModelEliments;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PoligonalModel {
-    public List<Poligon> poligons;
-    public List<Texture> textures;
+    public List<Texture> Textures;
+    public List<Poligon> Poligons;
+
+    public PoligonalModel(List<Texture> Textures) {
+        this.Poligons = new ArrayList<>();
+        this.Textures = Textures;
+    }
 }

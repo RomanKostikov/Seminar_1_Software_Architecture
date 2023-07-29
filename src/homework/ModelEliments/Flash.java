@@ -1,20 +1,30 @@
 package homework.ModelEliments;
 
 import homework.Stuff.Angle3D;
-import homework.Stuff.Color;
+//import homework.Stuff.Color;
+import java.awt.*;
 import homework.Stuff.Point3D;
 
 public class Flash {
-    public Point3D location;
-    public Angle3D angle;
-    public Color color;
-    public float power;
+    public Point3D Location;
+    public Angle3D Angle;
+    public java.awt.Color color;
+    public float Power;
 
-    public void rotate(Angle3D angle) {
+    /**
+     * поворот источников света на угол
+     *
+     * @param angleAction
+     */
+    public void Rotate(Angle3D angleAction) {
 
     }
 
-    public void move(Point3D point) {
+    /**
+     * перемещение к точке
+     * @param pointAction
+     */
+    public void Move(Point3D pointAction){
 
     }
 }

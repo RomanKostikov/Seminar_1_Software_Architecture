@@ -4,14 +4,22 @@ import homework.Stuff.Angle3D;
 import homework.Stuff.Point3D;
 
 public class Camera {
-    public Point3D location;
-    public Angle3D angle;
-
-    public void rotate(Angle3D angle) {
+    public Point3D Location;
+    public Angle3D Angle;
+    /**
+     * поворот камеры на угол
+     *
+     * @param angleAction
+     */
+    public void Rotate(Angle3D angleAction) {
 
     }
 
-    public void move(Point3D point) {
+    /**
+     * перемещение камеры к точке
+     * @param pointAction
+     */
+    public void Move(Point3D pointAction){
 
     }
 }

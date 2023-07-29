@@ -1,5 +1,5 @@
 package homework.InMemoryModel;
 
 public interface IModelChanger {
-    public void notifyChange(IModelChanger sender);
+    public void NotifyChange(IModelChanger sender);
 }
